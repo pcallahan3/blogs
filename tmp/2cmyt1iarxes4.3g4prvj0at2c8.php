@@ -26,12 +26,12 @@
 
     <div class="container">
 
-      <form class="form-signin">
+      <form class="form-signin" method="POST" action="authenticate" >
         <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Username</label>
-        <input id="inputEmail" class="form-control" placeholder="Username" required="" autofocus="" type="email">
+        <label for="inputUser" class="sr-only">Username</label>
+        <input id="inputUser" class="form-control" name="username" placeholder="Username" required="" autofocus="" type="username">
         <label for="inputPassword" class="sr-only">Password</label>
-        <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
+        <input id="inputPassword" name="passsword" class="form-control" placeholder="Password" required="" type="password">
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       </form>
 
@@ -41,4 +41,5 @@
    
   
 
-</body></html>
+</body>
+</html>

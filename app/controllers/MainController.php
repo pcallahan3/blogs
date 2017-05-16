@@ -16,6 +16,8 @@ class MainController extends Controller {
 	  $this->f3->set('msg',$msg);
       echo \Template::instance()->render('template.htm');
 	}
+	
+	
 
 	
 }

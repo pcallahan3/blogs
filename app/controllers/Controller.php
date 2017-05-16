@@ -1,17 +1,18 @@
 <?php
 
-class Controller {
+class Controller extends Password {
 	
 	protected $f3;
 	protected $db;
 	
+	/*
 	function beforeroute() {
 		//echo 'Before routing - ';
 	}
 
 	function afterroute() {
 		//echo ' - After routing';
-	}
+	}*/
 	
 	function __construct(){
 		

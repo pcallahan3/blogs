@@ -1,18 +1,16 @@
-<?php
 
-class Controller extends Password {
+
+<?php
+/*
+ * We will create a Base controller named “Controller” to initialize our database
+ * connection and F3‘s instance of “Base” Class. In directory “app/controllers”
+ * create a new file named “Controller.php”. and fill it with below class ::
+ */
+
+class Controller  {
 	
 	protected $f3;
 	protected $db;
-	
-	/*
-	function beforeroute() {
-		//echo 'Before routing - ';
-	}
-
-	function afterroute() {
-		//echo ' - After routing';
-	}*/
 	
 	function __construct(){
 		
@@ -28,4 +26,15 @@ class Controller extends Password {
 		
 		$this->db=$db;
 	}
+	
+	//event handler method
+	function beforeroute() {
+		//echo 'Before routing - ';
+	}
+
+	//event handler method
+	function afterroute() {
+		echo Template::instance()->render('layout.htm');
+	}
+
 }

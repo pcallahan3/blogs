@@ -35,5 +35,16 @@ class UserController extends Controller {
         
         
     }
+	
+	
+	function aboutUs() {
+	
+       /*
+       $template = new Template;
+       echo $template->render('login.htm');
+       */
+       echo \Template::instance()->render('about-us.php');
+     
+	}
     
 }

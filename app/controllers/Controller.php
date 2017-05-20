@@ -1,5 +1,3 @@
-
-
 <?php
 /*
  * We will create a Base controller named “Controller” to initialize our database

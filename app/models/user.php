@@ -7,7 +7,7 @@ class User extends DB\SQL\MAPPER
     public function __construct(DB\SQL $db)
     {
         //replace with table name in DB
-        parent::__construct($db, 'user');
+        parent::__construct($db, 'users');
     }
     
     public function all()

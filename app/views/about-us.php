@@ -15,10 +15,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <style>
-.panel {
+    .panel {
    
    
     margin-left:auto;
@@ -53,17 +53,11 @@ hr {
   background-color: #808080;
   height: 1px;
 }
-
 </style>
-
-
 </head>
 
 <body>
     
-    
-   
-
     <div class="panel panel-default container-fluid">
         <img src="images/trumpet.png" style="width:100px;height:100px;">
         <div><h1>The Blog site</h1>
@@ -78,13 +72,9 @@ hr {
 <!--Inlcude vertical nabar-->
 <include href="navbar.php" />
 
-
-
-
-
     <div class="panel-body" >
       <h4><strong>The internet is abuzz with our blog content</strong></h4>
-      <hr>
+      <hr
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique rhoncus egestas. Vivamus venenatis laoreet ante vel vulputate. Fusce ultricies porttitor tellus eget aliquet. Aenean congue pellentesque dolor eget sollicitudin. Morbi quis imperdiet mi.
       Fusce at est non purus gravida molestie. Praesent elementum vestibulum ligula, ullamcorper pellentesque nunc blandit non. Curabitur mattis augue eget massa lobortis eleifend. Aliquam ac lorem lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.

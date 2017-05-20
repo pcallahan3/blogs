@@ -1,36 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    height: 400px;
-    background-color: #f1f1f1;
-    position: absolute;
-    top: 0px;
-}
-
-.trumpet{
-    width:120px;
-    height:60px;
-    position: absolute;
-    top: 90px;
-    left: 15px;
-    
-}
-
-li a {
-    display: block;
-    color: blue;
-    padding: 8px 16px;
-    text-decoration: none;
-}
 
 
-</style>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="navbar.css">
 </head>
 <body>
 
@@ -44,7 +26,7 @@ li a {
  
   <li><a href="about-us">Home ></a></li>
   <li><a href="#news">Become a Blogger ></a></li>
-  <li><a href="#contact">About Us ></a></li>
+  <li><a href="about-us">About Us ></a></li>
   <li><a href="#about">Login ></a></li>
   
 </ul>

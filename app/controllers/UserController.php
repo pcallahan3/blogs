@@ -21,8 +21,8 @@ class UserController extends Controller {
         $user = new User($this->db);
         $this->f3->set('users',$user->all());
         $this->f3->set('page_head','User List');        
-        $this->f3->set('view','list.htm');
-	}
+        $this->f3->set('view','user/list.htm');
+    }
 	
 	function create()
 	{
@@ -40,6 +40,7 @@ class UserController extends Controller {
 		}
 	}
     
+	/*
     function authenticate(){
         
         $username = $this->f3->get('POST.username');
@@ -60,7 +61,7 @@ class UserController extends Controller {
     
         
         
-    }
+    }*/
 	
 	
 	function aboutUs()

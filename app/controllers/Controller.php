@@ -23,16 +23,15 @@ class Controller  {
 		);
 		
 		$this->db=$db;
+		
 	}
 	
 	//event handler method
-	function beforeroute() {
-		//echo 'Before routing - ';
-	}
-
+	 function beforeroute() {        
+    }
+ 
 	//event handler method
-	function afterroute() {
-		echo Template::instance()->render('layout.htm');
-	}
+    function afterroute() { 
+    }
 
 }

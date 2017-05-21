@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit79b94280b3dfaa513bdf51de6705f82b
+class ComposerStaticInit186570f5aba99282904d9bee836ad863
 {
     public static $classMap = array (
         'Audit' => __DIR__ . '/..' . '/bcosca/fatfree-core/audit.php',
@@ -12,6 +12,8 @@ class ComposerStaticInit79b94280b3dfaa513bdf51de6705f82b
         'Base' => __DIR__ . '/..' . '/bcosca/fatfree-core/base.php',
         'Basket' => __DIR__ . '/..' . '/bcosca/fatfree-core/basket.php',
         'Bcrypt' => __DIR__ . '/..' . '/bcosca/fatfree-core/bcrypt.php',
+        'BloggerController' => __DIR__ . '/../..' . '/app/controllers/BloggerController.php',
+        'BlogsPostController' => __DIR__ . '/../..' . '/app/controllers/BlogPostController.php',
         'CLI\\Agent' => __DIR__ . '/..' . '/bcosca/fatfree-core/cli/ws.php',
         'CLI\\WS' => __DIR__ . '/..' . '/bcosca/fatfree-core/cli/ws.php',
         'Cache' => __DIR__ . '/..' . '/bcosca/fatfree-core/base.php',
@@ -31,11 +33,9 @@ class ComposerStaticInit79b94280b3dfaa513bdf51de6705f82b
         'Image' => __DIR__ . '/..' . '/bcosca/fatfree-core/image.php',
         'Log' => __DIR__ . '/..' . '/bcosca/fatfree-core/log.php',
         'Magic' => __DIR__ . '/..' . '/bcosca/fatfree-core/magic.php',
-        'MainController' => __DIR__ . '/../..' . '/app/controllers/MainController.php',
         'Markdown' => __DIR__ . '/..' . '/bcosca/fatfree-core/markdown.php',
         'Matrix' => __DIR__ . '/..' . '/bcosca/fatfree-core/matrix.php',
-        'Messages' => __DIR__ . '/../..' . '/app/models/messages.php',
-        'Password' => __DIR__ . '/../..' . '/app/models/class.password.php',
+        'Post' => __DIR__ . '/../..' . '/app/models/Post.php',
         'Prefab' => __DIR__ . '/..' . '/bcosca/fatfree-core/base.php',
         'Preview' => __DIR__ . '/..' . '/bcosca/fatfree-core/base.php',
         'Registry' => __DIR__ . '/..' . '/bcosca/fatfree-core/base.php',
@@ -44,7 +44,7 @@ class ComposerStaticInit79b94280b3dfaa513bdf51de6705f82b
         'Template' => __DIR__ . '/..' . '/bcosca/fatfree-core/template.php',
         'Test' => __DIR__ . '/..' . '/bcosca/fatfree-core/test.php',
         'UTF' => __DIR__ . '/..' . '/bcosca/fatfree-core/utf.php',
-        'User' => __DIR__ . '/../..' . '/app/models/user.php',
+        'User' => __DIR__ . '/../..' . '/app/models/User.php',
         'UserController' => __DIR__ . '/../..' . '/app/controllers/UserController.php',
         'View' => __DIR__ . '/..' . '/bcosca/fatfree-core/base.php',
         'Web' => __DIR__ . '/..' . '/bcosca/fatfree-core/web.php',
@@ -59,7 +59,7 @@ class ComposerStaticInit79b94280b3dfaa513bdf51de6705f82b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit79b94280b3dfaa513bdf51de6705f82b::$classMap;
+            $loader->classMap = ComposerStaticInit186570f5aba99282904d9bee836ad863::$classMap;
 
         }, null, ClassLoader::class);
     }

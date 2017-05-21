@@ -1,5 +1,5 @@
 <?php
-class UserController extends Controller {
+class BloggerController extends Controller {
  
     function index()
     {
@@ -52,5 +52,11 @@ class UserController extends Controller {
         }
      
         $this->f3->reroute('/');
+    }
+    
+    
+    function aboutUs()
+    {
+        echo Template::instance()->render('about-us.php');
     }
 }

@@ -31,7 +31,8 @@ class Controller  {
     }
  
 	//event handler method
-    function afterroute() { 
+    function afterroute() {
+		 echo Template::instance()->render('layout.htm');
     }
 
 }

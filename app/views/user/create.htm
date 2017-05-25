@@ -2,7 +2,7 @@
  
     <div class="input-prepend">
         <span class="add-on"><i class="icon-user icon-black"></i> Name</span>
-        <input type="text" id="name" name="name" value="" class="input-xlarge" />
+        <input type="text" id="name" name="username" value="" class="input-xlarge" />
     </div>
     <br/><br/>
  
@@ -11,17 +11,14 @@
         <input type="text" id="email" name="email" value="" class="input-xlarge" />
     </div>
     <br/><br/>
- <p>Hello world</p>
+    
     <div class="input-prepend">
-        <span class="add-on"><i class="icon-headphones icon-black"></i> Mobile</span>
-        <input type="text" id="mobile" name="mobile" value="" class="input-xlarge" />
-    </div><br/><br/>
+        <span class="add-on"><i class="icon-envelope icon-black"></i> Password</span>
+        <input type="text" id="email" name="password" value="" class="input-xlarge" />
+    </div>
+    <br/><br/>
  
-    <div class="input-prepend">
-        <span class="add-on add-on-area "><i class="icon-home icon-black"></i> Address</span>
-        <textarea row="5" id="address" name="address" class="input-xlarge"></textarea>
-    </div><br/><br/>
- 
+   
     <div class="control-group">
         <div class="">
             <input type="hidden" name="create" value="create" />

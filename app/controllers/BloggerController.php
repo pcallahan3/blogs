@@ -5,7 +5,7 @@ class BloggerController extends Controller {
     {
         $user = new User($this->db);
         $this->f3->set('users',$user->all());
-        $this->f3->set('page_head','User List');        
+        $this->f3->set('page_head','Blogger List');        
         $this->f3->set('view','user/list.htm');
     }
     
